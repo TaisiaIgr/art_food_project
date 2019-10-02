@@ -1,17 +1,45 @@
   body {
     background-image: linear-gradient(black, gray);
     font-family: 'Amatic SC', cursive;
+    margin: auto;
    }
   header {
        background-image: url(img/big_pizza.jpg);
        background-size: cover;
        color: white;
+       height: 100vh;
+   }
+   .header_content {
+       max-width: 1100px;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       height: 100%;
+   }
+   .header_label {
+    padding-left: 10%;
+    margin: 0;
+   }
+   header h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 0.671);
+    text-shadow: -5px 4px 5px black;
+    margin: 0;
+   }
+   header p {
+       font-size: 4rem;
+       margin: 0;
+       text-shadow: -5px 4px 5px black;
    }
   #menu_bar {
+        clear: both;
         color: white;
         background-image: linear-gradient(#461818, rgba(128, 128, 128, 0.226));
-        margin: auto;
-        width: 70%;
+        margin: 25px auto 0;
+        width: 80%;
+        height: 30px;
    }
    #menu_bar li {
        display: inline-block;
@@ -22,13 +50,13 @@
        text-decoration: none;
        color: white;
    }
-   #about_us {
+  /* #about_us {
         color: white;
         text-align: center;
    }
-   /*#galery {
-   image-orientation: auto;
-   }*/
+   #galery {
+    text-align: center;
+   }
     .menu_column {
         color: white;
         text-align: center;
@@ -36,4 +64,4 @@
     footer {
         color: white;
         text-align: center;
-    }
+    }*/
