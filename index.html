@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link rel="stylesheet" href="desktop.css">
+   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
    <header>
@@ -37,102 +37,120 @@
          <div></div>
       </div>
    </header>
-   <!-- <main>
-    <section id="about_us">
-        <h3>About us</h3>
-        <p>The ArtFood restaurant has been a firm fixture on London’s dining and social scene since its foundation in 1917. The Covent Garden restaurant and private room upstairs are the epitome of glamour – now more than ever after a triumphant redesign in 2015 by the acclaimed Martin Brudnizki Design Studio. </p>
-    </section>
-    <section id="galery">
-        <h3>menus</h3>
-        <img src="fish.jpg" alt="fish">
-        <img src="seafood_soup.jpg" alt="seafood soup">
-        <img src="shrims.jpg" alt="shrims">
-        <button>choose from our menus</button>
-    </section>
-    <section id="menu">
-        <div class="menu_column">
-          <h4>FIRST</h4>
+   <main>
+      <section id="about_us">
+         <h3>About us</h3>
+         <p>The ArtFood restaurant has been a firm fixture on London’s dining and social scene since its foundation in
+            1917. The Covent Garden restaurant and private room upstairs are the epitome of glamour – now more than ever
+            after a triumphant redesign in 2015 by the acclaimed Martin Brudnizki Design Studio. </p>
+      </section>
+      <section id="galery">
+         <div class="gallery">
+            <div>
+               <img src="fish.jpg" alt="fish">
+            </div>
+            <div class="center_img">
+               <img src="seafood_soup.jpg" alt="seafood soup">
+               <button class="choose_menu_btn">choose from our menus</button>
+            </div>
+            <div>
+               <img src="shrims.jpg" alt="shrims">
+            </div>
+         </div>
+      </section>
+      <section id="menu">
+         <div class="menu_column">
+            <h4 class="menu_title">FIRST</h4>
             <ul class="menu_item">
-               <li>Leaf salad</li>
-               <li>cauliflower, radish, citrus, pomegranate</li>
-               <li>250 UAH</li>
+               <li class="dish_name">Leaf salad</li>
+               <li class="composition">cauliflower, radish, citrus, pomegranate</li>
+               <li class="price">250 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>Smoked trout</li>
-               <li>quail egg, dill, crunchy buckwheat, caviar</li>
-               <li>270 UAH</li>
+               <li class="dish_name">Smoked trout</li>
+               <li class="composition">quail egg, dill, crunchy buckwheat, caviar</li>
+               <li class="price">270 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>Beef tartar</li>
-               <li>mayonnaise, truffle, brown champignon, paper bread</li>
-               <li>290 UAH</li>
+               <li class="dish_name">Beef tartar</li>
+               <li class="composition">mayonnaise, truffle, brown champignon, paper bread</li>
+               <li class="price">290 UAH</li>
             </ul>
-        </div>
-        <div class="menu_column">
-        <h4>SECOND</h4>
+            <h4 class="menu_title">SECOND</h4>
             <ul class="menu_item">
-               <li>Cauliflower cream</li>
-               <li>egg</li>
-               <li>180 UAH</li>
+               <li class="dish_name">Cauliflower cream</li>
+               <li class="composition">egg</li>
+               <li class="price">180 UAH</li>
             </ul>
-        </div>
-        <div class="menu_column">
-        <h4>MAIN</h4>
+         </div>
+         <div class="menu_column">
+            <h4 class="menu_title">MAIN</h4>
             <ul class="menu_item">
-               <li>Tortellini</li>
-               <li>ricotta, butter emulsion, sage</li>
-               <li>390 UAH</li>
+               <li class="dish_name">Tortellini</li>
+               <li class="composition">ricotta, butter emulsion, sage</li>
+               <li class="price">390 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>Tortellini</li>
-               <li>beef ragout, root vegetables, parmesan</li>
-               <li>450 UAH</li>
+               <li class="dish_name">Tortellini</li>
+               <li class="composition">beef ragout, root vegetables, parmesan</li>
+               <li class="price">450 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>Label rouge salmon</li>
-               <li>sheep yogurt, anchovy, radish, cucumber, peas</li>
-               <li>570 UAH</li>
+               <li class="dish_name">Label rouge salmon</li>
+               <li class="composition">sheep yogurt, anchovy, radish, cucumber, peas</li>
+               <li class="price">570 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>Chicken breast</li>
-               <li>corn puree, shallots, leek sauce</li>
-               <li>450 UAH</li>
+               <li class="dish_name">Chicken breast</li>
+               <li class="composition">corn puree, shallots, leek sauce</li>
+               <li class="price">450 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>Lamb sirloin</li>
-               <li>chickpea, carrot, celery</li>
-               <li>590 UAH</li>
-             </ul>
-        </div>
-        <div class="menu_column">
-        <h4>OUR SPECIALTIES</h4>
+               <li class="dish_name">Lamb sirloin</li>
+               <li class="composition">chickpea, carrot, celery</li>
+               <li class="price">590 UAH</li>
+            </ul>
+         </div>
+         <div class="menu_column">
+            <h4 class="menu_title">OUR SPECIALTIES</h4>
             <ul class="menu_item">
-               <li>Venison sausages</li>
-               <li>smoked beluga lentils, mustard seed, onion</li>
-               <li>440 UAH</li>
+               <li class="dish_name">Venison sausages</li>
+               <li class="composition">smoked beluga lentils, mustard seed, onion</li>
+               <li class="price">440 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>21 days dry aged pork chop</li>
-               <li>variation of vegetables, potato puree</li>
-               <li>490 UAH</li>
+               <li class="dish_name">21 days dry aged pork chop</li>
+               <li class="composition">variation of vegetables, potato puree</li>
+               <li class="price">490 UAH</li>
             </ul>
             <ul class="menu_item">
-               <li>42 days dry aged beef</li>
-               <li>variation of vegetables, potato puree</li>
-               <li>790 UAH</li>
+               <li class="dish_name">42 days dry aged beef</li>
+               <li class="composition">variation of vegetables, potato puree</li>
+               <li class="price">790 UAH</li>
             </ul>
-    </div>
-    </section>
-</main>
-<footer>
-    <button>Make your reservation</button>
-    <p>Call +420 605 555 050 or send us an email.</p>
-    <p>If you would like to book a table for today then please call: online reservations are usually not preferred for the current day.</p>
-    <p>For larger groups of six people or more please use email booking.</p>
-    <img src="img/phone-solid.svg" alt="call icon">
-    <img src="img/instagram-brands.svg" alt="instagram icon">
-    <img src="img/facebook-f-brands.svg" alt="facebook icon">
-    <img src="img/envelope-regular.svg" alt="mail icon">
-</footer> -->
+         </div>
+      </section>
+   </main>
+   <footer>
+      <button class="reservetion_btn">Make your reservation</button>
+      <p>Call +420 605 555 050 or send us an email.</p>
+      <p>If you would like to book a table for today then please call: online reservations are usually not preferred for
+         the current day.</p>
+      <p>For larger groups of six people or more please use email booking.</p>
+   <div class="icons">
+      <div class="call_icon">
+         <img src="phone-solid.svg" alt="call icon">
+      </div>
+      <div class="inst_icon">
+         <img src="instagram-brands.svg" alt="instagram icon">
+      </div>   
+      <div class="fb_icon">
+         <img src="facebook-f-brands.svg" alt="facebook icon">
+      </div>
+      <div class="mail_icon">
+         <img src="envelope-regular.svg" alt="mail icon">
+      </div>
+   </div>
+   </footer>
 </body>
 </html>
