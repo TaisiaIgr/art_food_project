@@ -1,3 +1,4 @@
+
   body {
     background-image: linear-gradient(black, gray);
     font-family: 'Amatic SC', cursive;
@@ -36,7 +37,7 @@
        margin: 0;
        text-shadow: -5px 4px 5px black;
    }
-  #menu_bar {
+   #menu_bar {
         clear: both;
         color: white;
         background-image: linear-gradient(#461818, rgba(128, 128, 128, 0.226));
@@ -53,18 +54,163 @@
        text-decoration: none;
        color: white;
    }
-  /* #about_us {
+   #about_us {
         color: white;
         text-align: center;
    }
    #galery {
     text-align: center;
    }
-    .menu_column {
-        color: white;
-        text-align: center;
-    }
     footer {
         color: white;
         text-align: center;
-    }*/
+    }
+    .gallery {
+        display: flex;
+        justify-content: space-around; 
+    }
+    .gallery img {
+        width: 100%;
+        display: block;
+    }
+    .gallery div {
+        width: 30%;
+    }   
+    .center_img{
+        position: relative;
+    }
+    .choose_menu_btn {
+        background-color: #afaeae71;
+        border: none;
+        color: white;
+        padding: 10px 23px 10px;
+        text-align: center;
+        font-size: 25px;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        width: 80%;
+        font-family: 'Amatic SC', cursive;
+    }
+    .choose_menu_btn:hover {
+        opacity: 1;
+    }
+    ul {
+        list-style-type: none;
+    }
+    #menu {
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu_column {
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        
+    }
+    .menu_item {
+       padding: 0;
+    }
+
+    .menu_title {
+        font-size: 32px;
+    }
+
+    .dish_name {
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .composition {
+        font-size: 19px;
+        padding: 14px auto 18px;
+        color: rgba(196, 189, 181, 0.63);
+    }
+
+    .price {
+        font-size: 23px;
+        color: rgba(255, 208, 0, 0.932);
+    }
+    
+    .reservetion_btn {
+        box-shadow: 3px 4px 8px 3px #00020393;
+        background:linear-gradient(to bottom, #949595 5%, #484949 100%);
+        background-color:#e6eef567;
+        border-radius:5px;
+        border:0;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: 'Amatic SC', cursive;
+        font-size:20px;
+        font-weight:bold;
+        padding:12px 44px;
+        text-decoration:none;
+        text-shadow:0px 2px 0px #090a0c;
+    }
+     
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 23px 35px;
+    }
+    
+    .call_icon {
+        width: 20px;
+        padding: 0 12px 0;
+    }
+    
+    .inst_icon {
+        width: 20px;
+        padding: 0 12px 0;
+    }
+
+    .fb_icon {
+        width: 20px;
+        padding: 0 12px 0;
+    }
+
+    .mail_icon {
+        width: 20px;
+        padding: 0 12px 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        #menu {
+            flex-direction: column;
+        }
+        
+        .header_label {
+          padding-left: 0;
+          text-align: center;  
+        }
+
+        .header_label h1 {
+            font-size: 8rem;
+        }
+
+        .gallery{
+            flex-direction: column;
+            align-items: center;  
+        }
+
+        .center_img {
+            margin: 20px;
+        }
+
+        .gallery div {
+            width: 90%;
+        }
+
+        .choose_menu_btn {
+            display: none;
+      }
+    }
