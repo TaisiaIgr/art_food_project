@@ -6,6 +6,7 @@
     background-image: linear-gradient(black, gray);
     font-family: 'Amatic SC', cursive;
     margin: auto;
+    max-width: 1100px;
    }
 
   header {
