@@ -212,7 +212,11 @@
         #menu {
             flex-direction: column;
         }
-
+        .navbar-expand-lg .navbar-nav {
+            flex-direction: column;
+            font-size: 20px;
+            color: white;
+        }
 
         .header_label {
           padding-left: 0;
