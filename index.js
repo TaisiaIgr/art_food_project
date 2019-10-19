@@ -10,3 +10,4 @@ function smoothScroll(Element) {
     }
     window.scrollTo(selectedPosX, selectedPosY);
     }
+

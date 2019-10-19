@@ -17,7 +17,6 @@
    }
 
    .header_content {
-       max-width: 1100px;
        margin: auto;
        display: flex;
        flex-direction: column;
@@ -28,6 +27,20 @@
    .header_label {
     padding-left: 10%;
     margin: 0;
+   }
+
+   .mr-auto, .mx-auto {
+    margin: 0 auto 70px;
+   }
+
+   .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    background-image: linear-gradient(#46181894, rgba(128, 128, 128, 0));
+   }
+
+   .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    text-shadow: 0px 1px 10px #6c757d;
    }
 
    .header_content > * {
@@ -57,7 +70,7 @@
         margin: 20px 30px 70px;
     }
 
-   #menu_bar {
+    #menu_bar {
         clear: both;
         color: white;
         background-image: linear-gradient(#461818, rgba(128, 128, 128, 0.226));
@@ -65,11 +78,13 @@
         width: 80%;
         height: 30px;
    }
+
    #menu_bar li {
        display: inline-block;
        width: 19%;
        text-align: center;
    }
+
    a {
        text-decoration: none;
        color: white;
@@ -78,27 +93,34 @@
         color: white;
         text-align: center;
    }
+
    #galery {
     text-align: center;
    }
+
     footer {
         color: white;
         text-align: center;
     }
+
     .gallery {
         display: flex;
         justify-content: space-around;
     }
+
     .gallery img {
         width: 100%;
         display: block;
     }
+
     .gallery div {
         width: 30%;
     }
+
     .center_img{
         position: relative;
     }
+
     .choose_menu_btn {
         background-color: #afaeae71;
         border: none;
@@ -117,15 +139,19 @@
         width: 80%;
         font-family: 'Amatic SC', cursive;
     }
+
     .choose_menu_btn:hover {
         opacity: 1;
     }
+
     ul {
         list-style-type: none;
     }
+
     #menu {
         display: flex;
         justify-content: space-around;
+        margin: 3em auto;
     }
     .menu_column {
         color: white;
@@ -160,20 +186,18 @@
     }
 
     #reservetion_btn {
-        box-shadow: 3px 4px 8px 3px #00020393;
-        background:linear-gradient(to bottom, #949595 5%, #484949 100%);
-        background-color:#e6eef567;
-        border-radius:5px;
-        border:0;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
+        background-color: #e6eef567;
+        border-radius: 5px;
+        border: 0;
+        display: inline-block;
+        cursor: pointer;
+        color: #090909;
         font-family: 'Amatic SC', cursive;
-        font-size:20px;
-        font-weight:bold;
-        padding:12px 44px;
-        text-decoration:none;
-        text-shadow:0px 2px 0px #090a0c;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 8px 31px;
+        text-decoration: none;
+        margin: auto auto 50px;
     }
 
     .icons {
@@ -209,6 +233,24 @@
         color: white;
     }
 
+    .modal-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: rgb(206, 204, 204);
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: .3rem;
+        outline: 0;
+        color: black;
+    }
+
+     footer p {
+        font-size: 21px;
+    }
+
     @media screen and (max-width: 768px) {
         #menu {
             flex-direction: column;
@@ -217,6 +259,7 @@
             flex-direction: column;
             font-size: 20px;
             color: white;
+            background-image: linear-gradient(#46181800, rgba(128, 128, 128, 0));
         }
 
         .header_label {
